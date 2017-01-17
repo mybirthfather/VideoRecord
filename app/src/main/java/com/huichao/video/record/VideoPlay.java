@@ -1,12 +1,13 @@
 package com.huichao.video.record;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.util.Log;
-import android.view.View;
-import android.view.ViewTreeObserver;
+import android.widget.ImageView;
 
 import com.huichao.video.BaseActivity;
 import com.huichao.video.R;
+import com.huichao.video.util.VideoThumbnails;
 import com.shuyu.gsyvideoplayer.utils.Debuger;
 import com.shuyu.gsyvideoplayer.utils.OrientationUtils;
 
@@ -43,7 +44,8 @@ public class VideoPlay extends BaseActivity {
         Log.i("============","mVideopath="+mVideopath);
         mVideo.setUp(mVideopath,true);
         mVideo.setIsTouchWiget(true);
-                mExecutorService = Executors.newSingleThreadExecutor();
+                mExecutorService = Executors.newSingleThreadExecutor();//这个地方时为这个播放器设置缩略图特意开的线程
+        //此处为进度条君 注意这个比放弃给了两个 下面的方法设置 进度条君的颜色 样式
         mVideo.setBottomShowProgressBarDrawable(getResources().getDrawable(R.drawable.video_new_seekbar_progress),getResources().getDrawable(R.drawable.video_new_seekbar_thumb));//前面是进度 后面是背景
         mVideo.setBottomProgressBarDrawable(getResources().getDrawable(R.drawable.video_new_seekbar_progress));//底部的进度条 可以省略
 //        orientationUtils = new OrientationUtils(this, mVideo);
@@ -66,16 +68,16 @@ public class VideoPlay extends BaseActivity {
         mExecutorService.execute(new Runnable() {
             @Override
             public void run() {
-//                final Bitmap videoThumbnail = VideoThumbnails.createVideoThumbnail(mVideopath, mVideo);
-//                Log.i("========","videoThumbnail="+videoThumbnail);
-//                runOnUiThread(new Runnable() {
-//                    @Override
-//                    public void run() {
-//                        ImageView imageView = new ImageView(VideoPlay.this);
-//                        imageView.setImageBitmap(videoThumbnail);
-//                        mVideo.setThumbImageView(imageView);
-//                    }
-//                });
+                final Bitmap videoThumbnail = VideoThumbnails.createVideoThumbnail(mVideopath, mVideo);
+                Log.i("========","videoThumbnail="+videoThumbnail);
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        ImageView imageView = new ImageView(VideoPlay.this);
+                        imageView.setImageBitmap(videoThumbnail);
+                        mVideo.setThumbImageView(imageView);
+                    }
+                });
             }
         });
 
@@ -85,29 +87,11 @@ public class VideoPlay extends BaseActivity {
 
     @Override
     protected void initlistener() {
-        mVideo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Log.i("===========","mVideo.setOnClickListener点击了");
-            }
-        });
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-//        Log.i("==========",""+ AppUtil.getScreenDispaly(this)[0]+"[[[["+AppUtil.getScreenDispaly(this)[1]);
-        ViewTreeObserver vto2 = mVideo.getViewTreeObserver();
-        vto2.addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
-            @Override
-            public void onGlobalLayout() {
-                int height = mVideo.getMeasuredHeight();
-                int width = mVideo.getMeasuredWidth();
-                Log.i("===========","mVideo.getWidth()="+width+"mVideo.getHeight()="+height);
-                mVideo.getViewTreeObserver().removeGlobalOnLayoutListener(this);
-            }
-        });
-//        mVideo.onVideoResume();
     }
 
     @Override
