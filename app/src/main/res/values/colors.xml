@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#616161</color>
+    <color name="colorPrimaryDark">#424242</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="common_text_black">#000</color>
+    <color name="common_text">#666666</color>
+    <color name="divider_line">#cccccc</color>
+
+    <color name="gray">#c8c8ce</color>
+    <color name="dark">#000000</color>
+    <color name="darke">#7f000000</color>
+    <color name="darkban">#80000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_light_nine">#DFFFFFFF</color>
+    <color name="lime_hui">#999999</color>
+    <color name="white_light">#80FFFFFF</color>
+    <color name="white_light_three">#05FFFFFF</color>
+    <color name="white_two">#ffffff</color>
+    <color name="lime">#A0A0A0</color>
+    <color name="red">#ff4a40</color>
+    <color name="red_big">#ff5152</color>
+    <color name="red_big1">#ff5151</color>
+
+    <color name="lime_word">#bbbbbb</color>
+    <color name="bage_lime">#efeff4</color>
+    <color name="divider_horizontal_grey">#d7d7d7</color>
+    <color name="f7">#f7f7f7</color>
+    <color name="cyan">#3e6af1</color>
+    <!--TOP 页颜色-->
+    <color name="blue">#00AAEE</color>
+    <color name="jb_color">#007aff</color>
+    <color name="top_grey">#777777</color>
+    <color name="top_search_grey">#AAAAAA</color>
+    <color name="top_bg_grey">#EFEFF4</color>
+    <color name="top_orange">#FF7B09</color>
+    <color name="top_pink">#FF4799</color>
+    <!--收到的打赏 页颜色-->
+    <color name="content_grey">#FFC5BC</color>
+    <color name="money_yellow">#FFE021</color>
+    <color name="my_investor_name">#FF5151</color>
+    <color name="my_investor_money">#00AAEE</color>
+    <color name="dialog_cancle">#007AFF</color>
+    <color name="press_bg_grey">#F4EFEF</color>
+    <color name="item_grey">#FFF9F9</color>
+    <color name="bill_record_tv">#666666</color>
+    <color name="zhanghu_top_bg">#F95E5A</color>
+
+    <color name="gray_info">#999999</color>
+
+    <color name="text_hint">#777777</color>
+    <color name="view_color">#dddddd</color>
+    <color name="pinglun_color">#576b95</color>
+    <color name="text_hint_forget">#cccccc</color>
+
+    <color name="face_button_textcolor">#010101</color>
+    <color name="pop_color">#8f000000</color>
+    <color name="school">#fff6f6</color>
+
+
+
+
+
+<!--三级联动-->
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <!--覆盖颜色-->
+    <color name="bgColor_overlay">#60000000</color>
+<!--dialogFragment-->
+    <color name="bg_btn">#237aec</color>
+    <color name="blue_light">#2e88ff</color>
+
+    <!--加载图片-->
+    <color name="theme_body">#cc22292c</color>
+    <color name="black">#000000</color>
+    <color name="status_bar">#303135</color>
+    <color name="top_bar">#9f556061</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="list_qualities_bg">#88FFFFFF</color>
+
+    <color name="bage">#FFFF88</color>
+    <color name="withe">#FFFFFF</color>
+
+</resources>

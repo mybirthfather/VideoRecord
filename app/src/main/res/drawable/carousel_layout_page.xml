@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@mipmap/icon_dian_pre">
+       <!-- <shape  android:shape="oval">
+            <solid android:color="@color/dark"></solid>
+        </shape>-->
+    </item>
+    <item android:drawable="@mipmap/icon_dian">
+        <!--<shape  android:shape="oval">
+            <solid android:color="@android:color/transparent"></solid>
+            <stroke android:width="1dp" android:color="@color/top_grey"> </stroke>-->
+      <!--  </shape>-->
+    </item>
+</selector>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/camera_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <!--<Button-->
+            <!--android:id="@+id/buttonQuality"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:text="720p"-->
+            <!--android:textAllCaps="false"/>-->
+
+        <ImageView
+            android:layout_marginRight="40px"
+            android:layout_marginTop="40px"
+            android:src="@mipmap/pic_paishe"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textChrono"
+            android:id="@+id/button_ChangeCamera"
+            android:layout_width="72px"
+            android:layout_height="62px"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+           />
+        <ImageView
+            android:layout_alignParentLeft="true"
+          android:layout_marginLeft="40px"
+            android:layout_marginTop="40px"
+            android:src="@mipmap/pic_tuichu"
+            android:layout_below="@+id/textChrono"
+            android:id="@+id/back_Iv"
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:scaleType="fitCenter"
+            />
+        <Chronometer
+            android:id="@+id/textChrono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:text="00:00"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/chronoRecordingImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textChrono"
+            android:layout_alignTop="@+id/textChrono"
+            android:layout_toLeftOf="@+id/textChrono"
+            android:adjustViewBounds="true"
+            android:scaleType="fitEnd"
+            android:visibility="gone"/>
+
+        <ListView
+            android:id="@+id/listOfQualities"
+            android:layout_width="wrap_content"
+            android:layout_height="0px"
+            android:layout_below="@+id/buttonQuality"
+            android:layout_margin="10dp"
+            android:background="@color/list_qualities_bg"
+            android:visibility="gone">
+        </ListView>
+
+
+
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="200px"
+            android:id="@+id/video_Rl_Xuanze"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:id="@+id/fenge"
+                android:layout_centerInParent="true"
+                android:layout_width="128px"
+                android:layout_height="1px"/>
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_toLeftOf="@+id/fenge"
+                android:layout_centerInParent="true"
+                android:id="@+id/video_cancel_rl"
+                android:background="@drawable/roundlayout"
+                android:layout_width="160px"
+                android:layout_height="160px">
+                <TextView
+                    android:background="@mipmap/pic_chonglai"
+                    android:layout_centerInParent="true"
+                    android:layout_width="82px"
+                    android:layout_height="82px"/>
+            </com.zhy.autolayout.AutoRelativeLayout>
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_toRightOf="@+id/fenge"
+                android:layout_centerInParent="true"
+                android:id="@+id/video_confirm_rl"
+                android:background="@drawable/roundlayout"
+                android:layout_width="160px"
+                android:layout_height="160px">
+                <TextView
+                    android:background="@mipmap/pic_queren"
+                    android:layout_centerInParent="true"
+                    android:layout_width="82px"
+                    android:layout_height="82px"/>
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/video_paishe_Rl"
+            android:layout_above="@+id/view"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/pressTv"
+                android:textSize="30px"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:text="按住拍摄"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16px"/>
+            <com.huichao.video.record.RoundProgressBar
+                android:id="@+id/button_capture"
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+        <View
+            android:layout_alignParentBottom="true"
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="32px"/>
+    </com.zhy.autolayout.AutoRelativeLayout>
+

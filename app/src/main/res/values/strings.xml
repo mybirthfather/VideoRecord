@@ -1,0 +1,223 @@
+<resources>
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_submit">确定</string>
+    <string name="pickerview_year">年</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+    <string name="pickerview_seconds">秒</string>
+
+
+    <string name="app_name">高颜值</string>
+    <string name="main_tab_name1">高颜值</string>
+    <string name="main_tab_name2">TOP</string>
+    <string name="main_tab_name3">颜</string>
+    <string name="main_tab_name4">消息</string>
+    <string name="main_tab_name5">我的</string>
+    <string name="area">地区</string>
+    <string name="birthday">生日</string>
+    <string name="constellation">星座</string>
+    <string name="head_portrait">头像</string>
+    <string name="information">个人资料</string>
+    <string name="keep">保存</string>
+    <string name="mailbox">邮箱</string>
+    <string name="mobile">手机号</string>
+    <string name="qq">QQ</string>
+    <string name="sex">性别</string>
+    <string name="sign">简介</string>
+    <string name="statures">身高</string>
+    <string name="petname">昵称</string>
+    <string name="school">学校</string>
+    <string name="professional">职业</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stereoscopic">三围</string>
+    <string name="weight">体重</string>
+    <string name="who">谁可以查看</string>
+    <string name="location">显示地点</string>
+    <string name="wx">微信号</string>
+    <string name="age">年龄</string>
+<string name="membership">申请成为会员</string>
+<string name="temporary">暂不申请</string>
+<string name="welfare">会员福利</string>
+<string name="menber_1">1.加入高颜值圈子，结识魅力人士</string>
+<string name="menber_2">2.颜值变现，获得赞助广告费或打赏</string>
+<string name="menber_3">3.参加高颜值圈的线上线下活动</string>
+<string name="menber_4">4.有机会培养成为签约名人</string>
+<string name="check">身份校验</string>
+<string name="check_yan">身份信息用于申请会员和余额提现，请确保真实</string>
+    
+<string name="menber_fail">申请已提交，请等待审核…</string>
+<string name="menber_fail1">抱歉，你没有成为我们的会员哦。&#x000A;\u3000貌似你的颜值还不够高嘛。</string>
+<string name="menber_fail2">貌似你的颜值还不够高嘛。</string>
+<string name="menber_fail3">不能接受！我要申诉</string>
+<string name="nekname">填写资料</string>
+
+<string name="name">姓名</string> 
+<string name="identity_number">身份证号</string>
+<string name="identity">身份证</string>
+<string name="live_photo">生活照</string>
+<string name="live_three">请选择三张高清生活照</string>
+<string name="identity_xinxi">身份信息</string>
+<string name="identity1">请上传身份证正反面</string>
+<string name="submit">提交并等待审核</string>
+<string name="next">下一步</string>
+<string name="xiangce">相册</string>
+<string name="upload">上传</string>
+
+
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="confirm_recharge">确认充值</string>
+    <string name="confirm_delete">确认删除</string>
+    <string name="publish">发布</string>
+    <string name="loanction">地点</string>
+    <string name="uplodapoto">上传</string>
+    <string name="meanwhile">同时发布动态</string>
+    <string name="load_more_loading">加载中，请稍后...</string>
+    <string name="load_more_loaded_no_more">亲，没有更多了...</string>
+    <string name="open">公开</string>
+    <string name="open1">所有人可见</string>
+    <string name="member">仅会员和招募商</string>
+    <string name="member1">会员招募商可见。如果当前有赞助，对所有人开放会员权限</string>
+    <string name="owned">私密</string>
+    <string name="owned1">仅自己可见</string>
+    <string name="VIP">仅VIP</string>
+    <string name="like">我喜欢的人和单次打上超过1000的人</string>
+    <string name="replacement">更换头像</string>
+    <string name="photograph">拍照</string>
+    <string name="selector">从相册选择</string>
+    <string name="install_photo">设为私密照片</string>
+    <string name="photos">照片管理</string>
+    <string name="keep_photo">保存到手机</string>
+    <string name="delete_photo">删除</string>
+    <string name="region">地区</string>
+    <string name="complete">完成</string>
+    <string name="theerW">胸围      腰围      臀围</string>
+    <string name="l_album_name_all">最近图片</string>
+    <string name="l_album_name_selected">选择图片</string>
+    <string name="l_album_name_camera">相机</string>
+    <string name="l_album_name_download">下载</string>
+    <string name="l_album_name_screen_shot">屏幕截图</string>
+    <string name="que">确定</string>
+    <string name="l_confirm_dialog_title">提示</string>
+    <string name="l_confirm_dialog_message">您确定要放弃本次选择的图片吗?</string>
+
+    <string name="copyright">Copyright © 2016</string>
+    <string name="dashang">收到的打赏</string>
+    <string name="zhayanjing">向我眨眼睛</string>
+    <string name="my_zhaomu1">我的招募</string>
+    <string name="my_zanzhu1">我的赞助</string>
+    <string name="my_tuiguang1">我的推广</string>
+    <string name="my_tuiguang_ID">推广ID</string>
+    <string name="my_tuiguang_url">推广链接</string>
+    <string name="my_zhanghu1">我的账户</string>
+    <string name="my_zhaomu">招募</string>
+    <string name="my_zanzhu">赞助</string>
+    <string name="my_tuiguang">推广</string>
+    <string name="my_zhanghu">账户</string>
+    <string name="zhanghu_pay_pwd">支付密码</string>
+    <string name="zhanghu_recharge">充值</string>
+    <string name="zhanghu_withdrawal">提现</string>
+    <string name="zhanghu_money">资金流</string>
+    <string name="weixin">微信好友</string>
+    <string name="weixin_f">朋友圈</string>
+    <string name="qq_f">QQ好友</string>
+    <string name="qq_zone">QQ空间</string>
+    <string name="my_send">发出的</string>
+    <string name="my_receiver">收到的</string>
+    <string name="login_out">退出登录</string>
+    <string name="authentication">身份校验</string>
+    <string name="withdrawal">提现</string>
+    <string name="bill_record">资金流</string>
+    <string name="add_bank_card">添加银行卡</string>
+    <string name="select_bank_card">选择银行卡</string>
+    <string name="bind_card">绑定银行卡</string>
+    <string name="mycard">我的银行卡</string>
+    <string name="withdrawal_money">提现金额</string>
+
+    <!--TOP-->
+    <string name="contacts">通讯录</string>
+    <string name="ranking">人气月榜</string>
+    <string name="hot_ranking">人气月榜</string>
+    <string name="new_ranking">新人榜</string>
+    <string name="ds_ranking">打赏榜</string>
+    <string name="zhaomu">招募</string>
+    <string name="top_total_money">月收入：</string>
+    <string name="top_reward_month">本月打赏：</string>
+    <string name="top_recruit">招募商：</string>
+    <string name="top_sponsor">赞助商：</string>
+
+    <string name="zhaomu_tip">"\u3000\u3000您将选择本站10位帅哥美女会员，成为他们的招募商，您的广告将在会员主页及其各动态详情页显示2年。支付之后，等订单变成待选择，即可选择会员。招募期内您还可以跟招募的会员互发消息哦。"  </string>
+    <string name="zanzhu_tip">"\u3000\u3000赞助以1个自然月为一期。赞助广告将出现在会员主页及其各动态详情页。每期最多6个赞助，以单期赞助费高低排序轮播。赞助费为100的整数倍，最小1000元/期。赞助期内您还可以跟招募的会员互发消息哦。"</string>
+    <string-array name="constellation">
+        <item>白羊座</item>
+        <item>金牛座</item>
+        <item>双子座</item>
+        <item>巨蟹座</item>
+        <item>狮子座</item>
+        <item>处女座</item>
+        <item>天秤座</item>
+        <item>天蝎座</item>
+        <item>射手座</item>
+        <item>摩羯座</item>
+        <item>水瓶座</item>
+        <item>双鱼座</item>
+    </string-array>
+
+
+    <!--个人主页里的资料-->
+    <string name="xinbie">性别</string>
+    <string name="shengri">生日</string>
+    <string name="nianlin">年龄</string>
+    <string name="xingzuo">星座</string>
+    <string name="shengao">身高</string>
+    <string name="tizhong">体重</string>
+    <string name="sanwei">三围</string>
+    <string name="diqu">地区</string>
+    <string name="gexinqianmin">简介</string>
+    <string name="shoujihao">手机号</string>
+
+
+    <!--加载图片-->
+    <string name="all_images">全部图片</string>
+    <string name="folder_image_count">共%1$d张</string>
+    <string name="preview_image_count">%1$s/%2$s</string>
+    <string name="select_limit">最多选择%1$s张图片</string>
+    <string name="select_complete">完成(%1$s/%2$s)</string>
+    <string name="preview_count">预览(%1$s)</string>
+    <string name="photo_crop">图片裁剪</string>
+    <string name="origin">原图</string>
+    <string name="origin_size">原图(%1$s)</string>
+
+
+    <string name="weixinhao">微信号</string>
+    <string name="yonxiang">邮箱</string>
+    <string name="nologin_init">登录后，你喜欢的会员的动态会显示在这里，关注他们的动向，给自己的生活更多的乐趣</string>
+    <string name="zhuce">注册</string>
+    <string name="longin">登录</string>
+
+    <string name="nologin_tv">登录后，你喜欢的会员列表会显示在这里，成为会员后你的动态、相册、资料会显示在这里，展示给别人</string>
+    <string name="nologin_tv1">登录后，别人跟你打招呼、给你发的打赏、给你发的消息，都会在这里收到通知</string>
+    <!---->
+    <!-- 权限申请-->
+    <string name="tips_permission_request_title">权限申请</string>
+    <string name="tips_permission_request_content">权限申请啊权限申请啊,权限申请啊权限申请啊,到底给不给,没权限搞不了sd卡啊!!!</string>
+    <string name="go_and_grant_permission">到设置页面重新授予权限</string>
+    <string name="deny_and_quit">知道了,任性退出</string>
+
+
+    <!-- 录制视频-->
+    <string name="record_video">录制视频</string>
+    <string name="fail_when_camera_try_autofocus">对焦失败:%1$s</string>
+    <string name="dont_have_camera_error">对不起,没有发现摄像头,请检查</string>
+    <string name="only_have_one_camera">对不起,您只有一个摄像头,无法切换</string>
+    <string name="video_captured">视频已成功录制</string>
+    <string name="camera_init_fail">摄像头初始化失败</string>
+    <string name="dont_have_front_camera">当前设备没有前置摄像头</string>
+    <string name="changing_flashLight_mode">切换闪光灯模式失败</string>
+    <string name="open_video">打开视频</string>
+    <string name="dont_have_app_to_open_file">没有支持此格式的播放器</string>
+
+
+</resources>
